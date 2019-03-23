@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+ /* At the time of submitting this, I know I did not do as well as anticipated. I will continue with it in my own time, 
+ even if I cannot resubmit the work. */
+
+nav {
+	padding: 25px;
+	margin: auto;
+	display: inline-block;
+}
+nav a {
+	font-size: 14px;
+	color: lightgrey;
+	width: 200px;
+	padding: 14px;
+	margin: 12px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.logo {
+	display: inline-block;
+	width: 200px;
+	
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.features {
+	margin: 20px 1%;
+	display: inline-block;
+	width: 220px;
+	border: 2px solid green;
+}
