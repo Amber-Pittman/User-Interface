@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* CSS RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,42 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
- /* At the time of submitting this, I know I did not do as well as anticipated. I will continue with it in my own time, 
- even if I cannot resubmit the work. */
+ /* At the time of submitting this, I know I did not do as well as anticipated. I will 
+ continue with it in my own time, even if I cannot resubmit the work. */
 
-nav {
-	padding: 25px;
-	margin: auto;
-	display: inline-block;
+ 
+h1 {
+	font-size: 72px;
+	text-align: center;
+	width: 300px;
+	height: 250px;
+	margin: 150 px;
 }
+
+h2 {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+}
+
+h6 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 15px;
+ }
+
+p {
+	font-size: 16px;
+	font-weight: 500;
+	text-align: left;
+}
+
+.nav-bar {
+	width: auto;
+	padding: 25px;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: left;
+	border: 3px solid black;
+ }
+
 nav a {
 	font-size: 14px;
 	color: lightgrey;
-	width: 200px;
 	padding: 14px;
 	margin: 12px;
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
+	display: inline-block;
+	border: 2px solid green;
 }
 
 .logo {
 	display: inline-block;
-	width: 200px;
-	
+	margin-top: 12px;
+	text-align: right;
 }
 
-h1 {
-	font-size: 72px;
-}
 
-h2 {
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.features {
-	margin: 20px 1%;
+.panel1 {
+	border: 2px solid darkmagenta;
+	margin: 0 auto;
+	width: 1200px;
+	height: 400px;
+	text-align: left;
 	display: inline-block;
-	width: 220px;
-	border: 2px solid green;
+	vertical-align:top;
+}
+
+.button {
+	width: 150px;
+	height: 24px;
+	margin: 0 50px;
+	background-color: transparent;
+	border: 1px solid black;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.panel1 img {
+	float: right;
+}
+
+.info1 {
+	border: 2px solid cyan;
+	margin: 20px 1%;
+	width: 220 px;
+	text-align: center;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.middle-img {
+	display: inline-block;
+	float: center;
+	border: 2px solid darkred;
+}
+
+.info2 {
+	border: 2px solid deeppink;
+	margin: 20px 1%;
+	width: 220 px;
+	text-align: center;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.contact {
+	margin: 12px 50px;
 }
